@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         testjni = findViewById(R.id.testjni);
-        testjni.setText(JniTest.getStringFromC());
+        JniCTest jniCTest = new JniCTest();
+        testjni.setText(jniCTest.accessField());
     }
 }

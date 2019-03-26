@@ -1,2 +1,2 @@
-APP_MODULES := JniLib
+APP_MODULES := JniClib
 APP_ABI := all
